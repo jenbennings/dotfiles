@@ -1,0 +1,34 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme – User/Tomorrow-Night-Eighties.tmTheme",
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache"
+	],
+	"font_face": "Inconsolata-dz",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"tab_size": 2,
+	"theme": "Centurion.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
