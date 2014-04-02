@@ -69,4 +69,11 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 # Only show the current directory's name in the tab
-export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+# export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+
+
+eval "$(rbenv init -)"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
