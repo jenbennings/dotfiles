@@ -15,7 +15,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Basic Git
-alias gs='git status'
+alias gs='git status -sb'
 alias gc='git checkout'
 alias ga='git add -A'
 alias gci='git commit'
